@@ -190,6 +190,7 @@ a:hover {
 }
 
 .quote {
+  background-size: cover;
   background: url(../img/bg.jpg);
   padding: 20px 0px;
   margin-top: 120px;
