@@ -45,13 +45,12 @@
     <!-- Introduction -->
     <div class="intro section" id="about">
         <div class="container">
-            <p>Hi, I’m David Besonen</p>
             <div class="units-row units-split wrap">
                 <div class="unit-20">
                     <img src="img/face.jpg" alt="Avatar">
                 </div>
                 <div class="unit-80">
-                    <h1>Music</h1>
+                    <h1>I am a<br><span id="typed"></span></h1>
                 </div>
                 <p>
                     Hello! My name is David, and I'm a first year graduate student at the University of Nebraska-Lincoln
@@ -73,6 +72,22 @@
             <h1>Videos</h1>
         </div>
     </div>
+
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+        function newTyped() { } $(function () {
+            $("#typed").typed({
+                // Change to edit type effect
+                strings: ["musician", "pianist", "saxophonist", "composer", "producer"],
+
+                typeSpeed: 90, backDelay: 700, contentType: "html", loop: !0, resetCallback: function () { newTyped() }
+            }), $(".reset").click(function () { $("#typed").typed("reset") })
+        });
+    </script>
 </body>
 
 </html>
