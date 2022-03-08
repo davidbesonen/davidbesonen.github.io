@@ -217,11 +217,11 @@ div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 160px;
 }
 
 div.gallery:hover {
-  border: 0px solid #777;
+  border: 3px solid #777;
 }
 
 div.gallery img {
