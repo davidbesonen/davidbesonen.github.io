@@ -65,7 +65,7 @@
     <div class="work section second" id="spotify">
         <div class="container">
             <h1>Spotify</h1>
-            <div>
+            <div style="height: 400px">
                 <iframe src="https://open.spotify.com/embed/playlist/3DUVORo5ZOUCCsUHNxpf1R" width="600" height="380"
                     frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
@@ -137,18 +137,16 @@
     <div class="container">
         <div class="fcf-body">
             <div id="fcf-form">
-                <h1>Business Inquiry</h1>
-                <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-
+                <h1>Inquiry</h1>
+                <form id="fcf-form-id" class="fcf-form-class" method="post" target="_blank" action="contact-form-process.php">
                     <div class="fcf-form-group">
-                        <label for="Name" class="fcf-label">Your name</label>
+                        <label for="Name" class="fcf-label">Name</label>
                         <div class="fcf-input-group">
                             <input type="text" id="Name" name="Name" class="fcf-form-control" required>
                         </div>
                     </div>
-
                     <div class="fcf-form-group">
-                        <label for="Email" class="fcf-label">Your email address</label>
+                        <label for="Email" class="fcf-label">Email Address</label>
                         <div class="fcf-input-group">
                             <input type="email" id="Email" name="Email" class="fcf-form-control" required>
                         </div>
@@ -162,22 +160,16 @@
                     </div>
 
                     <div class="fcf-form-group">
-                        <label for="Message" class="fcf-label">Your message</label>
+                        <label for="Message" class="fcf-label">Message</label>
                         <div class="fcf-input-group">
                             <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000"
                                 required></textarea>
                         </div>
                     </div>
-
                     <div class="fcf-form-group">
                         <button type="submit" id="fcf-button"
                             class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send
                             Message</button>
-                    </div>
-
-                    <div class="fcf-credit" id="fcf-credit">
-                        Simple HTML email form provided by <a href="https://www.majesticform.com"
-                            target="_blank">MajesticForm</a>
                     </div>
                 </form>
             </div>
