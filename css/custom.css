@@ -32,7 +32,7 @@ a:hover {
 }
 
 .container {
-  margin: auto;
+  margin: 10px;
   max-width: 662px;
   padding: 0 20px;
 }
@@ -215,13 +215,13 @@ footer .social li a {
 }
 div.gallery {
   margin: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(255, 255, 255);
   float: left;
   width: 160px;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 1px solid rgb(255, 255, 255);
 }
 
 div.gallery img {
