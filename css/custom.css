@@ -115,6 +115,8 @@ a:hover {
 
 .section.second {
   margin-bottom: 90px;
+  justify-content: center;
+  display: flex;
 }
 .section .container {
   position: relative;
@@ -128,6 +130,7 @@ a:hover {
   text-transform: uppercase;
   margin-bottom: 30px;
   position: relative;
+  text-align: center;
 }
 
 .intro {

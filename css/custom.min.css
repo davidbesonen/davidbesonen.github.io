@@ -109,6 +109,8 @@ a:hover {
 }
 .section.second {
   margin-bottom: 90px;
+  justify-content: center;
+  display: flex;
 }
 .section .container {
   position: relative;
