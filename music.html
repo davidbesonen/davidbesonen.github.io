@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/kube.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="./css/custom.css" />
     <link rel="shortcut icon" href="img/favicon.png" />
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
@@ -65,8 +65,6 @@
     <div class="work section second" id="location">
         <div class="container">
             <h1>Where Is David Now?</h1>
-            <!-- Create an array of where I will be, check the date, 
-            and return the location here using JS -->
             <div class="unit-80">
                 <h2 id="locationText"></h2>
             </div>
@@ -91,66 +89,24 @@
     <div class="work section second" id="photos">
         <div class="container">
             <h1>Photos</h1>
-            <div style="height: 625px;">
-                <div class="gallery">
-                    <a target="_blank" href="img/sax1.PNG">
-                        <img src="img/sax1.PNG" width="600" height="400">
-                    </a>
+            <div class="row" style="display: flex; padding: 4px;">
+                <div class="column" style="max-width: 33%; padding: 0 4px;">
+                    <img src="img/sax1.PNG" style="padding: 4px">
+                    <img src="img/sax2.JPG" style="padding: 4px">
+                    <img src="img/ensemble2.JPG" style="padding: 4px">
+                    <img src="img/tour1.jpg" style="padding: 4px">
                 </div>
-                <div class="gallery">
-                    <a target="_blank" href="img/ensemble1.JPG">
-                        <img src="img/ensemble1.JPG" width="600" height="400">
-                    </a>
+                <div class="column" style="max-width: 33%; padding: 0 4px;">
+                    <img src="img/ensemble1.JPG" style="padding: 4px">
+                    <img src="img/sax3.jpg" style="padding: 4px">
+                    <img src="img/ensemble3.JPG" style="padding: 4px">
+                    <img src="img/tour2.jpg" style="padding: 4px">
                 </div>
-                <div class="gallery">
-                    <a target="_blank" href="img/phoneafriend.jpg">
-                        <img src="img/phoneafriend.jpg" width="600" height="400">
-                    </a>
-                </div>
-                <div class="gallery">
-                    <a target="_blank" href="img/sax2.JPG">
-                        <img src="img/sax2.JPG" width="600" height="400">
-                    </a>
-                </div>
-                <div class="gallery">
-                    <a target="_blank" href="img/sax3.jpg">
-                        <img src="img/sax3.jpg" width="600" height="400">
-                    </a>
-                </div>
-                <div class="gallery">
-                    <a target="_blank" href="img/sax4.jpg">
-                        <img src="img/sax4.jpg" width="600" height="400">
-                    </a>
-                </div>
-                <div class="gallery">
-                    <a target="_blank" href="img/ensemble2.JPG">
-                        <img src="img/ensemble2.JPG" width="600" height="400">
-                    </a>
-                </div>
-                <div class="gallery">
-                    <a target="_blank" href="img/ensemble3.JPG">
-                        <img src="img/ensemble3.JPG" width="600" height="400">
-                    </a>
-                </div>
-                <div class="gallery">
-                    <a target="_blank" href="img/sax5.jpg">
-                        <img src="img/sax5.jpg" width="600" height="400">
-                    </a>
-                </div>
-                <div class="gallery">
-                    <a target="_blank" href="img/tour1.jpg">
-                        <img src="img/tour1.jpg" width="600" height="400">
-                    </a>
-                </div>
-                <div class="gallery">
-                    <a target="_blank" href="img/tour2.jpg">
-                        <img src="img/tour2.jpg" width="600" height="400">
-                    </a>
-                </div>
-                <div class="gallery">
-                    <a target="_blank" href="img/tour3.jpg">
-                        <img src="img/tour3.jpg" width="600" height="400">
-                    </a>
+                <div class="column" style="max-width: 33%; padding: 0 4px;">
+                    <img src="img/phoneafriend.jpg" style="padding: 4px">
+                    <img src="img/sax4.jpg" style="padding: 4px">
+                    <img src="img/sax5.jpg" style="padding: 4px">
+                    <img src="img/tour3.jpg" style="padding: 4px">
                 </div>
             </div>
         </div>
@@ -298,7 +254,7 @@
             tourLocations.set('6/16', 'Boston, MA');
             tourLocations.set('6/17', 'Philadelphia, PA');
             tourLocations.set('6/18', 'New York City, NY');
-            tourLocations.set('6/19', 'Nashville, TN'); 
+            tourLocations.set('6/19', 'Nashville, TN');
             tourLocations.set('6/20', 'Nashville, TN');
             tourLocations.set('6/21', 'Nashville, TN');
             tourLocations.set('6/22', 'Nashville, TN');
@@ -315,5 +271,4 @@
         });
     </script>
 </body>
-
 </html>

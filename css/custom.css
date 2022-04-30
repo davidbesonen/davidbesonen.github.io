@@ -394,3 +394,22 @@ label.fcf-label {
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
   width: 100%;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  padding: 0 4px;
+  flex: 0 0 50%; 
+  max-width: 33%;
+}
+
+.column img {
+  margin-top: 3px;
+  vertical-align: middle;
+  border: 1px solid rgb(0, 0, 0);
+}
