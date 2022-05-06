@@ -63,7 +63,5 @@ function location() { } $(function () {
     const currentDate = new Date();
     var date = (currentDate.getMonth() + 1) + '/' + currentDate.getDate();
 
-    var locationURL = "https://www.google.com/maps/search/?api=1&query=madison+wisconsin"
-
     document.querySelector('#locationText').innerHTML = tourLocations.get(date);
 });
