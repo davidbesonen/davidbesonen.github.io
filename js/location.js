@@ -63,5 +63,5 @@ function location() { } $(function () {
     const currentDate = new Date();
     var date = (currentDate.getMonth() + 1) + '/' + currentDate.getDate();
 
-    document.querySelector('#locationText').innerHTML = tourLocations.get(date);
+    // document.querySelector('#locationText').innerHTML = tourLocations.get(date);
 });
